@@ -37,3 +37,4 @@ print(accumulator_total)
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
 accumulator_total2= ''.join(random.sample(accumulator_total,len(accumulator_total)))
 print(accumulator_total2)
+#You can also use the shuffle() and a for to joint them in random 
