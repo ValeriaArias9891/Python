@@ -20,6 +20,8 @@ accumulator_total=""
 for letter in range(0,nr_letters):
   randomize_1= random.randint(0,len(letters)-1)  
   accumulator1= accumulator1 + letters[randomize_1]
+  #Also can be done as password+= random.choice(letters)
+  #it picks a random from the list 
   
 for number in range(0,nr_numbers):
   randomize_2= random.randint(0,len(numbers)-1)
